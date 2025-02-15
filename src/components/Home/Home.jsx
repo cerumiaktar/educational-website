@@ -3,6 +3,7 @@ import Banner from '../Banner/Banner';
 import Education from '../Education/Education';
 import Courses from '../Courses/Courses';
 import Registration from '../Registration/Registration';
+import Review from '../Review/Review';
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             <Education></Education>
             <Courses></Courses>
             <Registration></Registration>
+            <Review></Review>
         </div>
     );
 };
