@@ -43,7 +43,7 @@ const Registration = () => {
                     <div className="hero">
                         <div className="hero-content flex-col">
                             <div className="">
-                                <h1 className="text-5xl font-bold text-white">Sign up Now</h1>
+                                <h1 className="text-3xl font-bold text-white">Sign up Now</h1>
                             </div>
                             <div className="card w-full max-w-sm shrink-0">
                                 <form className="card-body">

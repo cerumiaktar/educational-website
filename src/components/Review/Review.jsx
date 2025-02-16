@@ -1,15 +1,15 @@
-
+import { IoMdStar } from "react-icons/io";
 
 const Review = () => {
     return (
         <div >
-            <div className="container mx-auto flex gap-12 mt-14">
+            <div className="container mx-auto flex justify-between gap-12 mt-14 mb-14">
                 <div>
                     <div>
-                        <h1 className="text-2xl">OUR CORE VALUES</h1>
+                        <h1 className="text-3xl font-bold">Our Core Values</h1>
                         <p>Short About Us</p>
                     </div>
-                    <div className="collapse collapse-plus bg-base-100 border border-base-300">
+                    <div className="collapse collapse-plus mt-6 bg-base-100 border border-base-300">
                         <input type="radio" name="my-accordion-3" defaultChecked />
                         <div className="collapse-title font-semibold">How do I create an account?</div>
                         <div className="collapse-content text-sm">Click the "Sign Up" button in the top right corner and follow the registration process.</div>
@@ -27,16 +27,28 @@ const Review = () => {
                 </div>
                 <div>
                     <div>
-                        <h1 className="text-2xl">OUR CORE VALUES</h1>
+                        <h1 className="text-3xl font-bold">What Customer Says</h1>
                         <p>Short About Us</p>
                     </div>
-                    <div className="card w-96 bg-base-100 card-md shadow-sm">
-                        <div className="card-body">
-                            <h2 className="card-title">Medium Card</h2>
-                            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                            <div className="justify-end card-actions">
-                                <button className="btn btn-primary">Buy Now</button>
+                    <div className="card w-96 bg-base-100 mt-6 card-md border shadow-sm">
+                        <div className="px-4 py-6">
+                            <div className="flex justify-between items-start mb-2">
+                                <div className="flex items-center gap-4">
+                                    <img className="w-10" src="https://i.ibb.co.com/TqT64ZhY/Ellipse-13.png" alt="" />
+                                    <div>
+                                        <h2 className="card-title">Michile Jhon</h2>
+                                        <p className="text-sm text-[#333333]">CEO</p>
+                                    </div>
+                                </div>
+                                <div className=" flex items-center gap-2 text-[#FF8539]">
+                                    <p><IoMdStar /></p>
+                                    <p><IoMdStar /></p>
+                                    <p><IoMdStar /></p>
+                                    <p><IoMdStar /></p>
+                                    <p><IoMdStar /></p>
+                                </div>
                             </div>
+                            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
                         </div>
                     </div>
                 </div>
