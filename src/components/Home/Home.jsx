@@ -5,6 +5,7 @@ import Courses from '../Courses/Courses';
 import Registration from '../Registration/Registration';
 import Review from '../Review/Review';
 import Teachers from '../Teachers/Teachers';
+import NewsLetter from '../NewsLetter/NewsLetter';
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
             <Registration></Registration>
             <Review></Review>
             <Teachers></Teachers>
+            <NewsLetter></NewsLetter>
         </div>
     );
 };
